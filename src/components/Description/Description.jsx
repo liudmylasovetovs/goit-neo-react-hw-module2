@@ -1,8 +1,8 @@
 const Description = () => {
   return (
     <div>
-      <h1>Feedback App</h1>
-      <p>Click the buttons to give feedback</p>
+      <h1>Sip Happens Café</h1>
+      <p>Please leave your feedback about our service by selecting one of the options below.</p>
     </div>
   )
 }

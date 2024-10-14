@@ -1,9 +1,13 @@
-const Feedback = ({ message }) => {
+const Feedback = ({ state, totalFeedback, positiveFeedback }) => {
   return (
     <div>
-      <h2>{message}</h2>
+      <p>Good: {state.good}</p>
+      <p>Neutral: {state.neutral}</p>
+      <p>Bad: {state.bad}</p>
+      <p>Total: {totalFeedback}</p>
+      <p>Positive: {positiveFeedback}%</p>
     </div>
-  )
-}
+  );
+};
 
-export default Feedback
+export default Feedback;
