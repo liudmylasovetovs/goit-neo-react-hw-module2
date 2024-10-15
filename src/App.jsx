@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 const App = () => {
   const [state, setState] = useState(() => {
-    const savedState = JSON.parse(window.localStorage.getItem("feedbackState"));
+    const savedState = window.localStorage.getItem("feedbackState");
     if (savedState) {
       return JSON.parse(savedState);
     }
